@@ -1,0 +1,11 @@
+package day9;
+
+public class CsvReader {
+
+	public static void main(String[] args) {
+		
+		String filePath = "D:\\gs_61\\ecl_main\\java_trng\\src\\day9\\users.csv";
+
+	}
+
+}

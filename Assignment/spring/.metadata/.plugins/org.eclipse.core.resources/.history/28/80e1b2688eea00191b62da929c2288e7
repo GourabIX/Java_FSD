@@ -1,0 +1,15 @@
+package com.zensar.spring.performers;
+
+import com.zensar.spring.instruments.Instrument;
+
+public class Instrumentalist implements Performer {
+
+	private String song;
+	private Instrument instrument;
+
+	@Override
+	public void perform() {
+		
+	}
+
+}

@@ -1,0 +1,82 @@
+2019-10-01 15:51:19,603 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-10-01 15:52:03,632 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zensar.java:MyFirstMavenProject:1.0-SNAPSHOT @ D:\gs_61\ecl_main\Assignment\maven\MyFirstMavenProject\pom.xml.
+2019-10-01 15:52:03,633 [Worker-0: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zensar.myWeb:EclipseZensarShopee:0.0.1-SNAPSHOT @ D:\gs_61\ecl_main\Assignment\maven\eclipse_project\EclipseZensarShopee\pom.xml.
+2019-10-01 15:52:06,022 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zensar.java:MyFirstMavenProject:1.0-SNAPSHOT @ D:\gs_61\ecl_main\Assignment\maven\MyFirstMavenProject\pom.xml.
+2019-10-01 15:52:06,049 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:52:06,074 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-01 15:52:06,087 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:52:06,089 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\eclipse_project\EclipseZensarShopee\src\test\resources
+2019-10-01 15:52:07,541 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zensar.myWeb:EclipseZensarShopee:0.0.1-SNAPSHOT @ D:\gs_61\ecl_main\Assignment\maven\eclipse_project\EclipseZensarShopee\pom.xml.
+2019-10-01 15:52:07,663 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zensar.web:ZensarOnlineShoppee:1.0-SNAPSHOT @ D:\gs_61\ecl_main\Assignment\maven\ZensarOnlineShoppee\pom.xml.
+2019-10-01 15:52:07,825 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zensar.myJava:eclipseJavaProjectMaven:0.0.1-SNAPSHOT @ D:\gs_61\ecl_main\Assignment\maven\eclipse_project\eclipseJavaProjectMaven\pom.xml.
+2019-10-01 15:52:10,560 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:52:10,567 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-01 15:52:10,590 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:52:10,592 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\eclipse_project\EclipseZensarShopee\src\test\resources
+2019-10-01 15:52:11,348 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:52:11,350 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\MyFirstMavenProject\src\main\resources
+2019-10-01 15:52:11,352 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:52:11,354 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\MyFirstMavenProject\src\test\resources
+2019-10-01 15:52:11,412 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:52:11,415 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-01 15:52:11,416 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:52:11,418 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\ZensarOnlineShoppee\src\test\resources
+2019-10-01 15:52:11,684 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-01 15:52:11,713 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\eclipse_project\eclipseJavaProjectMaven\src\main\resources
+2019-10-01 15:52:11,715 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-01 15:52:11,715 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\eclipse_project\eclipseJavaProjectMaven\src\test\resources
+2019-10-01 15:52:39,592 [Worker-7: Building Project EclipseZensarShopee] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:52:39,595 [Worker-7: Building Project EclipseZensarShopee] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-01 15:52:39,599 [Worker-7: Building Project EclipseZensarShopee] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:52:39,602 [Worker-7: Building Project EclipseZensarShopee] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\eclipse_project\EclipseZensarShopee\src\test\resources
+2019-10-01 15:52:50,793 [Worker-7: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:52:50,796 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-01 15:52:50,797 [Worker-7: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:52:50,799 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\eclipse_project\EclipseZensarShopee\src\test\resources
+2019-10-01 15:52:50,817 [Worker-7: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:52:50,820 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\MyFirstMavenProject\src\main\resources
+2019-10-01 15:52:50,839 [Worker-7: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:52:50,842 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\MyFirstMavenProject\src\test\resources
+2019-10-01 15:52:50,895 [Worker-7: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:52:50,898 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-01 15:52:50,899 [Worker-7: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:52:50,901 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\ZensarOnlineShoppee\src\test\resources
+2019-10-01 15:52:50,929 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-01 15:52:50,929 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\eclipse_project\eclipseJavaProjectMaven\src\main\resources
+2019-10-01 15:52:50,930 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-01 15:52:50,931 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\eclipse_project\eclipseJavaProjectMaven\src\test\resources
+2019-10-01 15:53:48,918 [Worker-1: Building Project EclipseZensarShopee] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:53:48,921 [Worker-1: Building Project EclipseZensarShopee] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-01 15:53:48,922 [Worker-1: Building Project EclipseZensarShopee] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:53:48,926 [Worker-1: Building Project EclipseZensarShopee] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\eclipse_project\EclipseZensarShopee\src\test\resources
+2019-10-01 15:53:51,563 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:53:51,583 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-01 15:53:51,584 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:53:51,586 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\eclipse_project\EclipseZensarShopee\src\test\resources
+2019-10-01 15:59:22,775 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:59:22,779 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-01 15:59:22,780 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 15:59:22,782 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\eclipse_project\EclipseZensarShopee\src\test\resources
+2019-10-01 16:11:43,157 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-10-01 16:11:47,412 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 16:11:47,421 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-01 16:11:47,424 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-01 16:11:47,427 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\eclipse_project\EclipseZensarShopee\src\test\resources
+2019-10-01 16:12:09,589 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-10-04 19:02:21,694 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-10-04 19:02:28,071 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-04 19:02:28,127 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-04 19:02:28,137 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-04 19:02:28,139 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\eclipse_project\EclipseZensarShopee\src\test\resources
+2019-10-04 19:02:29,960 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-04 19:02:29,962 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\MyFirstMavenProject\src\main\resources
+2019-10-04 19:02:29,964 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-04 19:02:29,966 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\MyFirstMavenProject\src\test\resources
+2019-10-04 19:02:30,598 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-04 19:02:30,600 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-04 19:02:30,603 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-04 19:02:30,605 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\ZensarOnlineShoppee\src\test\resources
+2019-10-04 19:02:30,784 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-04 19:02:30,784 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\eclipse_project\eclipseJavaProjectMaven\src\main\resources
+2019-10-04 19:02:30,786 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-04 19:02:30,787 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\maven\eclipse_project\eclipseJavaProjectMaven\src\test\resources

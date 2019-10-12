@@ -1,0 +1,49 @@
+package com.zensar.controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+/**
+ * @author Gourab Sarkar
+ * @modification_date 12 Oct 2019 15:43
+ * @creation_date 12 Oct 2019 15:4
+ * @version 1.0
+ * @copyright Gourab Sarkar 2019. All rights reserved.
+ * @description This is the ProductController interface to access Product Entity used in the business layer.
+ */
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.zensar.entities.Product;
+import com.zensar.services.ProductService;
+
+@RestController
+public class ProductController {
+	
+	@Autowired
+	private ProductService productService;
+	
+	@GetMapping("/products")
+	public List<Product> getAllProducts()
+	{
+		return productService.findAllProducts();
+	}
+	
+	@GetMapping("/products/{id}")
+	public Product getProductById(@PathVariable("id") int productId) 
+	{
+		return productService.findProductById(productId);
+	}
+	
+	@PostMapping("/products/add")
+	public String addProd(@RequestBody Product product) {
+		productService.addProduct(product);
+		return "new product: " + product.getProductId() + "is added";
+	}
+
+}

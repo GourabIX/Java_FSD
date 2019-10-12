@@ -1,0 +1,10 @@
+package com.zensar.spring.performers;
+
+public class Instrumentalist implements Performer {
+
+	@Override
+	public void perform() {
+		
+	}	
+
+}

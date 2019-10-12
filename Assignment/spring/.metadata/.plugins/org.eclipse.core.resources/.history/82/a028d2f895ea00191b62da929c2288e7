@@ -1,0 +1,34 @@
+package com.zensar.spring.performers;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+
+import com.zensar.spring.instruments.Instrument;
+
+public class Instrumentalist implements Performer {
+
+	private Map<Instrument, String> instrumentSongMap;
+
+	public Map<Instrument, String> getInstrumentSongMap() {
+		return instrumentSongMap;
+	}
+
+	public void setInstrumentSongMap(Map<Instrument, String> instrumentSongMap) {
+		this.instrumentSongMap = instrumentSongMap;
+	}
+	
+	@Override
+	public void perform() {
+		// TODO Auto-generated method stub
+		System.out.println("Instrumentalist is playing songs: ");
+		Set<Instrument> keys = instrumentSongMap.keySet();
+		for (Instrument key: keys)
+		{
+			System.out.println(key + instrumentSongMap.get(key));
+		}
+		
+	}
+
+}

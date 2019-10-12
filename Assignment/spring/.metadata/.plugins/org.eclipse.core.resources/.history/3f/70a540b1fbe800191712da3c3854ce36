@@ -1,0 +1,13 @@
+package com.zensar.spring.Main;
+
+import org.springframework.context.ApplicationContext;
+
+public class ZensarIdolMain {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext context = 
+
+	}
+
+}

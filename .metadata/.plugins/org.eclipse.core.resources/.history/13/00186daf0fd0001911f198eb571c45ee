@@ -1,0 +1,15 @@
+package zs_gs_java;
+
+public class Test_Exception {
+	
+	public static int test_exc()
+	{
+		return 50 / 0;
+	}
+	
+	public static int aux_test()
+	{
+		return test_exc();
+	}
+
+}

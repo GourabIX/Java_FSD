@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+D:\gs_61\ecl_main\Assignment\maven\eclipse_project\.metadata\.plugins\org.eclipse.jdt.core

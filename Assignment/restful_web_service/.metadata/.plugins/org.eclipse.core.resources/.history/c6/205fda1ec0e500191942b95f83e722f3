@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index Page</title>
+</head>
+<body>
+<p>
+<a href="http://localhost:8080/HelloWebService/zenrestfulws/hello/text">Plain Hello</a>
+</p>
+
+<p>
+<a href="http://localhost:8080/HelloWebService/zenrestfulws/hello/html">HTML Hello</a>
+</p>
+
+<p>
+<a href="http://localhost:8080/HelloWebService/zenrestfulws/hello/xml">XML Hello</a>
+</p>
+
+<p>
+<a href="useraddform.html">Add User</a>
+</p>
+
+</body>
+</html>

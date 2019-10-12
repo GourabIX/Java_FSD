@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Upload Page</title>
+</head>
+<body>
+
+<form action="http://localhost:8080/HelloWebService/zenrestfulws/upload" method="POST" enctype="multipart/form-data">
+	<input type="file" name="myfile" />
+	<input type="submit" name="submitter" />
+</form>
+
+</body>
+</html>

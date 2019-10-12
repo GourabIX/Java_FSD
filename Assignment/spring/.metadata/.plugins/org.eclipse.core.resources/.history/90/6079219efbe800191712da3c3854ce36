@@ -1,0 +1,11 @@
+package com.zensar.spring.Main;
+
+public class ZensarIdolMain {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

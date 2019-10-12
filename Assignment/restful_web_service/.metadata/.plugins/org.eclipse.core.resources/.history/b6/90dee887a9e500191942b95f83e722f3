@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index Page</title>
+</head>
+<body>
+<p>Plain Hello</p>
+<a href="http://localhost:8080/HelloWebService/zenrestfulws/hello/"></a>
+</body>
+</html>

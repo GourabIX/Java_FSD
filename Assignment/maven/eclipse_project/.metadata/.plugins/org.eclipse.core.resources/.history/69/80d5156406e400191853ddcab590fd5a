@@ -1,0 +1,18 @@
+package com.zensar.hibernate.entities;
+
+import javax.persistence.Entity;
+
+/**
+ * @author Gourab Sarkar
+ * @creation_date 01 Oct 2019 10:13
+ * @modification_date 01 Oct 2019 10:13
+ * @version 1.0
+ * @description This is the Product class in a Maven - Hibernate project
+ *
+ */
+
+@Entity
+public class Product {
+	
+
+}

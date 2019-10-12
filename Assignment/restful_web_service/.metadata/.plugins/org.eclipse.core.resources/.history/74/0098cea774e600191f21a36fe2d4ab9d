@@ -1,0 +1,70 @@
+package com.zensar.services;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.zensar.daos.ProductDao;
+import com.zensar.entities.Product;
+
+public class ProductServiceImpl implements ProductService {
+	
+	private ProductDao productDao;
+	
+	public ProductServiceImpl() {
+		productDao = (ProductDao) new ProductServiceImpl();
+	}
+	
+	@Override
+	public List<Product> findAllProducts() {
+		return productDao.getAll();
+	}
+
+	@Override
+	public Product findProductById(int productId) {
+		return productDao.getById(productId);
+	}
+
+	@Override
+	public void addProduct(Product product) {
+		productDao.insert(product);
+	}
+
+	@Override
+	public void updateProduct(Product product) {
+		productDao.update(product);
+	}
+
+	@Override
+	public void removeProduct(Product product) {
+		productDao.delete(product);
+	}
+
+	@Override
+	public List<Product> findProductsByPriceRange(double priceMin, double priceMax) {
+		Configuration conf = new Configuration().configure();
+		SessionFactory sf = conf.buildSessionFactory();
+		Session session = sf.openSession();
+		
+		List<Product> selectedProductsByPriceRange = (List<Product>) session.createQuery("from Product WHERE price BETWEEN " + priceMin + " AND " + priceMax);
+		return selectedProductsByPriceRange;
+	}
+
+	@Override
+	public List<Product> findProductsByName(String productName) {
+		return null;
+	}
+
+	@Override
+	public List<Product> findProductsByBrand(String productBrand) {
+		return null;
+	}
+
+	@Override
+	public long getProductCount() {
+		return 0;
+	}
+
+}

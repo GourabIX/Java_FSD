@@ -1,0 +1,14 @@
+package com.zensar.Spring.performers;
+
+import com.zensar.Spring.poems.Poem;
+
+public class PoeticJuggler extends Juggler {
+	
+	private Poem poem;
+	
+	public PoeticJuggler() 
+	{
+		System.out.println("Default constructor of poetic juggler called.");
+	}
+
+}

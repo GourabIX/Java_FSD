@@ -1,0 +1,17 @@
+package com.zensar.services;
+
+import com.zensar.entities.User;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public boolean validateUser(User user) 
+	{
+		if (user.getUsername().equals("gourab") && user.getPassword().equals("welcome"))
+		{
+			return true;
+		}
+		return false;
+	}
+
+}

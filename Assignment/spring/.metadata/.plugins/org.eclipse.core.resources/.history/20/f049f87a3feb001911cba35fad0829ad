@@ -1,0 +1,5 @@
+package com.zensar.spring.aspects;
+
+public class Audience {
+
+}

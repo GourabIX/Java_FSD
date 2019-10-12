@@ -1,0 +1,48 @@
+package com.zensar.restful;
+
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import com.zensar.entities.Product;
+import com.zensar.services.ProductService;
+import com.zensar.services.ProductServiceImpl;
+
+/**
+ * @author Gourab Sarkar
+ * @modification_date 04 Oct 2019 14:04
+ * @creation_date 04 Oct 2019 14:04
+ * @version 1.0
+ * @copyright Gourab Sarkar 2019. All rights reserved.
+ * @description This is the ProductWebService class used in the business layer.
+ */
+
+@Path("/products")
+public class ProductWebService {
+	
+	private ProductService productService;
+	
+	public ProductWebService() {
+		productService = new ProductServiceImpl();
+	}
+	
+	@GET
+	@Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+	public List<Product> getAllProducts() {
+		return productService.findAllProducts();
+	}
+	
+	@PathParam("ID")
+	@GET
+	@Path("/{ID}")
+	@Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+	public Product getProduct(int productId)
+	{
+		return productService.findProductById(productId);
+	}
+
+}

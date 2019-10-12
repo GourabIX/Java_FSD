@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE movie-info SYSTEM "movies.dtd" >
+<movie-info>
+  <movie>
+    <id>id</id>
+    <title>title</title>
+    <release-date>
+      <day>day</day>
+      <month>month</month>
+      <year>year</year>
+    </release-date>
+    <theatre>theatre</theatre>
+  </movie>
+</movie-info>

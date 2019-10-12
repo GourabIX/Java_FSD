@@ -1,0 +1,53 @@
+package com.zensar.webservice.upload;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+
+import org.glassfish.jersey.media.multipart.FormDataContentDisposition;
+import org.glassfish.jersey.media.multipart.FormDataParam;
+
+@Path("/upload")
+public class FileUploadService {
+	
+	@POST
+	@Produces("text/html")
+	@Consumes(MediaType.MULTIPART_FORM_DATA)
+	public Response uploadFile(@FormDataParam("myFile") InputStream in, @FormDataParam("myFile") FormDataContentDisposition fileDetails)
+	{
+		String fileLocation = "D:/uploads/" + fileDetails.getFileName();
+		try {
+			FileOutputStream fos = new FileOutputStream(fileLocation);
+			byte[] bt = new byte[1024];
+			int data = 0;
+			while ((data = in.read(bt)) != -1)
+			{
+				fos.write(bt, 0, data);
+			}
+			fos.flush();
+			fos.close();
+			in.close();
+		} 
+		catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} 
+		catch (IOException e) {
+			e.printStackTrace();
+		}
+		catch (Exception exc)
+		{
+			exc.printStackTrace();
+		}
+		
+		return Response.status(200).entity("File uploaded to location: " + fileLocation).build();
+	}
+
+}

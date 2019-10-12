@@ -1,0 +1,16 @@
+package com.zensar.spring.performers;
+
+public class Instrumentalist implements Performer {
+
+	private String song;
+	
+	public Instrumentalist() {
+		System.out.println("Instrumentalist is created.");
+	}
+	
+	@Override
+	public void perform() {
+		
+	}	
+
+}

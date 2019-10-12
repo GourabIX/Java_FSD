@@ -1,0 +1,5 @@
+package com.zensar.spring.exceptions;
+
+public class PerformanceException extends Exception {
+
+}

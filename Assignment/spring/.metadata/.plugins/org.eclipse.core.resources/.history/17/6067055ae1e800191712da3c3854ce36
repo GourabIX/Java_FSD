@@ -1,0 +1,16 @@
+package com.zensar.spring;
+
+public class FestivalGreeting implements Greeting {
+
+	public FestivalGreeting() 
+	{
+		System.out.println("FestivalGreeting object created.");
+	}
+	
+	@Override
+	public String greet() 
+	{
+		return "Happy Overworking!";
+	}
+
+}

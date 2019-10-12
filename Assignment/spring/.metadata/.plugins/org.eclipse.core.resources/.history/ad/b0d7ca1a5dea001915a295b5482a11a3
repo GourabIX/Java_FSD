@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd ">
+
+	<bean id="violin" class="com.zensar.spring.instruments.Violin">
+		
+	</bean>
+	
+	<bean id="Lindsey Stirling" class="com.zensar.spring.performers.Instrumentalist">
+		<property name="instrument" ref="violin"></property>
+		<property name="song" value=""></property>
+	</bean>
+	
+	<bean id="212" parent="Lindsey Stirling">
+	
+	</bean>
+
+</beans>

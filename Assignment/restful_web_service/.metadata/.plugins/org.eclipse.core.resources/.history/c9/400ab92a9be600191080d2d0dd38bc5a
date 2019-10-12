@@ -1,0 +1,113 @@
+package com.zensar.restful;
+
+import java.util.List;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.DELETE;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.PUT;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+
+import com.zensar.entities.Product;
+import com.zensar.services.ProductService;
+import com.zensar.services.ProductServiceImpl;
+
+/**
+ * @author Gourab Sarkar
+ * @modification_date 04 Oct 2019 14:04
+ * @creation_date 04 Oct 2019 14:04
+ * @version 1.0
+ * @copyright Gourab Sarkar 2019. All rights reserved.
+ * @description This is the ProductWebService class used in the business layer.
+ */
+
+@Path("/products")
+public class ProductWebService {
+	
+	private ProductService productService;
+	
+	public ProductWebService() {
+		productService = new ProductServiceImpl();
+	}
+	
+	@GET
+	@Path("/findallproducts")
+	@Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+	public List<Product> getAllProducts() {
+		return productService.findAllProducts();
+	}
+	
+	@GET
+	@Path("/{ID}")
+	@Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+	public Product getProduct(@PathParam("ID") int productId)
+	{
+		return productService.findProductById(productId);
+	}
+	
+	@GET
+	@Path("/count")
+	@Produces("text/html")
+	public Response getProductCount()
+	{
+		long count = productService.getProductCount();
+		return Response.status(200).entity("<h1> Number of products: " + count + "</h1>").build();
+	}
+	
+	@POST
+	@Path("/addproduct")
+	@Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+	@Produces("text/html")
+	public Response add(Product product)
+	{
+		productService.addProduct(product);
+		return Response.status(200).entity("<h3> Product " + product.getProductId() + " added successfully! </h3>").build();
+	}
+	
+	@PUT
+	@Path("/updateproduct")
+	@Consumes({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
+	@Produces("text/html")
+	public Response update(Product product)
+	{
+		Product dbProduct = productService.findProductById(product.getProductId());
+		if (dbProduct != null)
+		{
+			dbProduct.setName(product.getName());
+			dbProduct.setBrand(product.getBrand());
+			dbProduct.setPrice(product.getPrice());
+			productService.updateProduct(dbProduct);
+			return Response.status(200).entity("Product " + dbProduct.getProductId() + " updated successfully!").build();
+		}
+		else
+		{
+			return Response.status(200).entity("Sorry! Product with ID: " + dbProduct.getProductId() + " not found!").build();
+		}
+	}
+	
+	@DELETE
+	@Path("/deleteproduct")
+	@Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+	@Produces("text/html")
+	public Response remove(Product product)
+	{
+		Product dbProduct = productService.findProductById(product.getProductId());
+		if (dbProduct != null)
+		{
+			dbProduct.setName(product.getName());
+			dbProduct.setBrand(product.getBrand());
+			dbProduct.setPrice(product.getPrice());
+			productService.updateProduct(dbProduct);
+			return Response.status(200).entity("Product " + dbProduct.getProductId() + " deleted successfully!").build();
+		}
+		else
+		{
+			return Response.status(200).entity("Sorry! Product with ID: " + dbProduct.getProductId() + " not found!").build();
+		}
+	}
+}

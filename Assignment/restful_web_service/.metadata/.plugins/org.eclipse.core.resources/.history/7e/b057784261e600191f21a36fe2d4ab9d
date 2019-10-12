@@ -1,0 +1,15 @@
+package com.zensar.daos;
+
+/**
+ * @author Gourab Sarkar
+ * @modification_date 04 Oct 2019 10:08
+ * @creation_date 04 Oct 2019 10:08
+ * @version 1.0
+ * @description This is the product DAO interface used in the persistence layer.
+ */
+
+public interface ProductDao {
+	
+	
+
+}

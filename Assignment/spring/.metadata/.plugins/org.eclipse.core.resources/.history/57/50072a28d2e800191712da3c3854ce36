@@ -1,0 +1,11 @@
+package com.zensar.spring;
+
+public class FestivalGreeting implements Greeting {
+
+	@Override
+	public String greet() {
+		
+		return null;
+	}
+
+}

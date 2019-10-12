@@ -1,0 +1,5 @@
+package com.zensar.hibernate.entities;
+
+public class Product {
+
+}

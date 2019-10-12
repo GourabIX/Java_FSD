@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zen:book-info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:zen="http://www.zensar.com/bookXmlSchema" xsi:schemaLocation="http://www.zensar.com/bookXmlSchema bookXmlSchema.xsd ">
+  <zen:book>
+    <zen:book-id>1002</zen:book-id>
+    <zen:title>"Core Java"</zen:title>
+    <zen:author>"Sudhanya"</zen:author>
+    <zen:publish-date>2001-01-01</zen:publish-date>
+    <zen:price>1500.23</zen:price>
+  </zen:book>
+  
+    <zen:book>
+    <zen:book-id>1003</zen:book-id>
+    <zen:title>"Core XML"</zen:title>
+    <zen:author>"Dipankar"</zen:author>
+    <zen:publish-date>2001-01-01</zen:publish-date>
+  </zen:book>
+  
+  <zen:book>
+    <zen:book-id>1004</zen:book-id>
+    <zen:title>"Core Thika"</zen:title>
+    <zen:author>"Charan R"</zen:author>
+    <zen:publish-date>2019-09-25</zen:publish-date>
+  </zen:book>
+  
+</zen:book-info>

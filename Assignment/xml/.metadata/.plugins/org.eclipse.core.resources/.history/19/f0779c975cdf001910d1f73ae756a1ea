@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zen:book-info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:zen="http://www.zensar.com/bookXmlSchema" xsi:schemaLocation="http://www.zensar.com/bookXmlSchema bookXmlSchema.xsd ">
+  <zen:book>
+    <zen:book-id>0</zen:book-id>
+    <zen:title>zen:title</zen:title>
+    <zen:author>zen:author</zen:author>
+    <zen:publish-date>2001-01-01</zen:publish-date>
+  </zen:book>
+</zen:book-info>

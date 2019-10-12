@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Download page</title>
+</head>
+<body>
+
+<a href="http://localhost:8080/HelloWebService/zenrestfulws/download/text">Download Stephen</a><br />
+<a href="http://localhost:8080/HelloWebService/zenrestfulws/download/image">Download image</a><br />
+<a href="http://localhost:8080/HelloWebService/zenrestfulws/download/pdf">Download pptx pdf</a><br />
+
+</body>
+</html>

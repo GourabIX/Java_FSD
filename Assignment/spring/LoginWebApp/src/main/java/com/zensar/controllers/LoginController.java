@@ -1,0 +1,37 @@
+package com.zensar.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.zensar.entities.User;
+import com.zensar.services.UserService;
+
+// Request Processing Controller
+
+@Controller
+public class LoginController {
+
+	@Autowired
+	private UserService userService;
+	
+	// @RequestMapping("login")
+	@PostMapping("login")
+	// @GetMapping("login")
+	public String checkLogin(User user, ModelMap map) {
+		if (userService.validateUser(user))
+		{
+			map.addAttribute("usernm", user.getUserName());			// This is a key-value pair. user.getUsername()'s value is accessible with "usernm"
+			return "welcome";				// This is the logical view which is prefixed and suffixed by specified values in zenServlet-servlet.xml
+		}
+		else
+		{
+			map.addAttribute("logOnError", "Invalid Username / Password!");
+			return "login";
+		}
+	}
+	
+}

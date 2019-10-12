@@ -1,0 +1,19 @@
+package com.zensar.spring;
+
+import org.springframework.stereotype.Component;
+
+@Component														// This decorative annotation replaces XML bean definition
+public class FestivalGreeting implements Greeting {
+
+	public FestivalGreeting() 
+	{
+		System.out.println("FestivalGreeting object created.");
+	}
+	
+	@Override
+	public String greet() 
+	{
+		return "\nHappy Overworking!";
+	}
+
+}

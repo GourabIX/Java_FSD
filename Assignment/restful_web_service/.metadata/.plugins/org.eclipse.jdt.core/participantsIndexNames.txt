@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+D:\gs_61\ecl_main\Assignment\restful_web_service\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3826239780.index
+\HelloWebService\src\main\resources
+D:\gs_61\ecl_main\Assignment\restful_web_service\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2938437918.index
+\WebServiceClientWebApp\src\main\resources
+D:\gs_61\ecl_main\Assignment\restful_web_service\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2215642270.index
+\ProductWebService\src\main\resources

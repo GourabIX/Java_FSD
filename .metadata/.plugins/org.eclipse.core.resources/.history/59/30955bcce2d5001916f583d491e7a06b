@@ -1,0 +1,31 @@
+package day7;
+
+// connecting to the Product table in JDBC_db (MySQL)
+public class JdbcExample1 {
+
+	public static void main(String[] args) {
+		
+		try
+		{
+			// Step 1: Register the Driver class
+			Class.forName("com.mysql.jdbc.Driver");
+			System.out.println("Init Success: Driver Loaded Successfully!");
+			
+			// Step 2: Create Connection
+			String url = "jdbc:mysql://localhost:3306/JDBC_db";
+		
+			// Step 3: Create Statement
+		
+			// Step 4: Execute queries
+		
+			// Step 5: Close connection
+		
+		}
+		catch(Exception exc)
+		{
+			System.out.println("Exception detected: " + exc);
+		}
+
+	}
+
+}

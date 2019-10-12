@@ -1,0 +1,12 @@
+package com.zensar.spring.performers;
+
+public class Magician implements Performer {
+
+	@Override
+	public void perform() {
+		
+		
+
+	}
+
+}

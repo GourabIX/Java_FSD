@@ -1,0 +1,24 @@
+package com.zensar.spring.aspects;
+
+public class Audience {
+	
+	
+	public void takeSeats()
+	{
+		System.out.println("Audience is taking their seats.");
+	}
+	
+	public void switchOffCellphones()
+	{
+		System.out.println("Audience is switching off cellphones.");
+	}
+	
+	public void applaud () {
+		System.out.println("CLAP CLAP CLAP!");
+	}
+	
+	public void demandRefund () {
+		System.out.println("Give me my money back!");
+	}
+
+}

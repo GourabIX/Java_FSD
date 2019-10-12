@@ -1,0 +1,18 @@
+package day11;
+
+public class MaxFinder {
+	
+	public static int findMax(int[] numArray)
+	{
+		int max = numArray[0];
+		for (int i = 1; i < numArray.length; i++)
+		{
+			if (max > numArray[i])
+			{
+				max = numArray[i];
+			}
+		}
+		return max;
+	}
+	
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE movie-info SYSTEM "movies.dtd" >
+<movie-info>
+  <movie>
+    <id>101</id>
+    <title>"Harry Potter and the Order of the Phoenix</title>
+    <release-date>
+      <day>24</day>
+      <month>September</month>
+      <year>2006</year>
+    </release-date>
+    <theatre>IMAX Quest Mall</theatre>
+  </movie>
+  
+   <movie>
+    <id>101</id>
+    <title>JOKER</title>
+    <release-date>
+      <day>04</day>
+      <month>October</month>
+      <year>2019</year>
+    </release-date>
+    <theatre>IMAX Quest Mall</theatre>
+  </movie>
+</movie-info>

@@ -1,0 +1,20 @@
+package day7;
+
+// connecting to the Product table in JDBC_db (MySQL)
+public class JdbcExample1 {
+
+	public static void main(String[] args) {
+		
+		// Step 1: Register the Driver class
+		
+		// Step 2: Create Connection
+		
+		// Step 3: Create Statement
+		
+		// Step 4: Execute queries
+		
+		// Step 5: Close connection
+
+	}
+
+}

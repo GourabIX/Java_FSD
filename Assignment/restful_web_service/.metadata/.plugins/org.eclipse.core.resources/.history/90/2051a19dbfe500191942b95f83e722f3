@@ -1,0 +1,22 @@
+package com.zensar.webservice.download;
+
+import java.io.File;
+
+import javax.ws.rs.Path;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.ResponseBuilder;
+
+@Path("/download")
+public class FileDownloadService {
+	
+	private static final String textFile = "D:/stephen.txt";
+	
+	public Response getTextFile()
+	{
+		File file = new File(textFile);
+		ResponseBuilder builder = Response.ok(file);
+		builder.header("Content-Disposition", "attachment; filename = download_stephen.txt");
+		return builder.build();
+	}
+
+}

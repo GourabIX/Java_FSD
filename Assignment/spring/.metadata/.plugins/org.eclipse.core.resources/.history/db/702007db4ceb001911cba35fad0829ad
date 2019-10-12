@@ -1,0 +1,60 @@
+package com.zensar.daos;
+
+/**
+ * @author Gourab Sarkar
+ * @modification_date 04 Oct 2019 10:08
+ * @creation_date 04 Oct 2019 10:24
+ * @version 1.0
+ * @copyright Gourab Sarkar 2019. All rights reserved.
+ * @description This is the product DAO class used in the persistence layer which implements the DAO interface.
+ */
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.zensar.entities.Product;
+
+@Repository
+public class ProductDaoImpl implements ProductDao {
+	
+	@Autowired
+	private JdbcTemplate jdbcTemplate;				// JdbcTemplate is a part of Spring DAO model
+	// Using autowired Spring will create the object of JdbcTemplate automatically and will inject it into the dependent object (which
+	// is ProductDaoImpl object)
+	
+	@Override
+	public List<Product> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product getById(int productId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void insert(Product product) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Product product) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Product product) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

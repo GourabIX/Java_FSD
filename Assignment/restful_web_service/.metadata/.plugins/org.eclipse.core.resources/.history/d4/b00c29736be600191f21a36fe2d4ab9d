@@ -1,0 +1,70 @@
+package com.zensar.daos;
+
+/**
+ * @author Gourab Sarkar
+ * @modification_date 04 Oct 2019 10:08
+ * @creation_date 04 Oct 2019 10:24
+ * @version 1.0
+ * @copyright Gourab Sarkar 2019. All rights reserved.
+ * @description This is the product DAO class used in the persistence layer which implements the DAO interface.
+ */
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.zensar.entities.Product;
+
+public class ProductDaoImpl implements ProductDao {
+	
+	private Session session;
+	
+	public ProductDaoImpl() {
+		
+		Configuration conf = new Configuration().configure();
+		SessionFactory sf = conf.buildSessionFactory();
+		session = sf.openSession();
+		
+	}
+
+	@Override
+	public List<Product> getAll() {
+		return session.createQuery("from Product").getResultList();
+	}
+
+	@Override
+	public Product getById(int productId) {
+		return session.get(Product.class, productId);
+	}
+
+	@Override
+	public void insert(Product product) {
+		
+		Transaction trx = session.beginTransaction();
+		session.save(trx);
+		trx.commit();
+
+	}
+
+	@Override
+	public void update(Product product) {
+		
+		Transaction trx = session.beginTransaction();
+		session.update(trx);
+		trx.commit();
+
+	}
+
+	@Override
+	public void delete(Product product) {
+		
+		Transaction trx = session.beginTransaction();
+		session.delete(trx);
+		trx.commit();
+		
+	}
+
+}

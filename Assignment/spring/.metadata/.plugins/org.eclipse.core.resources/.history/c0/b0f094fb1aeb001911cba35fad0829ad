@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd ">
+	
+	<bean id="magicbox" class="com.zensar.spring.magicboxes.MagicboxImpl"></bean>
+	<bean id="PC Sircar" class="com.zensar.spring.performers.Magician">
+		<property name="magicWords" value="Expelliarmus"></property>
+		<property name="magicBox" ref="magicbox"></property>
+	</bean>
+
+</beans>

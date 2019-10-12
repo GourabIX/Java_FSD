@@ -1,0 +1,12 @@
+package assignment_10112019.q11;
+
+import java.util.HashSet;
+
+public class CompareRetainHashSetElements {
+	
+	public void retailCommonElements(HashSet<String> myHS1, HashSet<String> myHS2)
+	{
+		
+	}
+
+}

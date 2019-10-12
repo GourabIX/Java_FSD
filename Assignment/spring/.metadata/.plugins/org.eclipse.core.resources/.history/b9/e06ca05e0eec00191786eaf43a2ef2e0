@@ -1,0 +1,7 @@
+package com.zensar.services;
+
+public interface UserService {
+	
+	boolean validateUser(User user);
+
+}

@@ -1,0 +1,17 @@
+package assignment_10112019.q1;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import day6.beans.Company;
+
+public class AppendSpecifiedElementToHS {
+	
+	Company company1 = new Company(1001, "Zensar", "Pune");
+	Company company2 = new Company(1002, "TCS", "Mumbai");
+	Company company3 = new Company(1003, "IBM", "New York");
+	
+	Set<Company> setOfCompanies1 = new HashSet<Company>();
+	
+
+}

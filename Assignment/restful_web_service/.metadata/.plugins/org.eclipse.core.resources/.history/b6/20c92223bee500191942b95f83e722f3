@@ -1,0 +1,10 @@
+package com.zensar.webservice.download;
+
+import javax.ws.rs.Path;
+
+@Path("/download")
+public class FileDownloadService {
+	
+	private static final String textFile="D:/stephen.txt";
+
+}

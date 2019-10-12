@@ -1,0 +1,20 @@
+package assignment_13092019.q3;
+
+import java.util.Scanner;
+
+public class TestGetProduct {
+
+	public static void main(String[] args) {
+		
+		GetProduct getProduct = new GetProduct();
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter ProductId to get: ");
+		int getPid = sc.nextInt();
+		sc.close();
+		
+		getProduct.productGetter(getPid);
+
+	}
+
+}

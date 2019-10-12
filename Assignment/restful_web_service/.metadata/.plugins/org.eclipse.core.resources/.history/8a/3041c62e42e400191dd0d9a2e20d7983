@@ -1,0 +1,13 @@
+package com.zensar.webservice.hello;
+
+import javax.ws.rs.Path;
+
+@Path("/hello")
+public class HelloService {
+	
+	public String sayPlainHello()
+	{
+		return "Welcome to Zensar Hello Service!";
+	}
+	
+}

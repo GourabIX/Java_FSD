@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="day4.ProductOperations"/>
+<fullyQualifiedTypeName name="day5.beans.Student"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java_assignment_09112019.q3.ArrayListInsert_q3"/>
+<fullyQualifiedTypeName name="java_assignment_09112019.q16.ArrayListClone"/>
+<fullyQualifiedTypeName name="linked_list_assignment.q2.LinkedListIterator"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="linked_list_assignment.q9.InsertAtSpecifiedPos"/>
+<fullyQualifiedTypeName name="linked_list_assignment.q13.RemoveFirstLastElement"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="linked_list_assignment.q14.RemoveAllElements"/>
+<fullyQualifiedTypeName name="day6.beans.Company"/>
+<fullyQualifiedTypeName name="day6.CompanySetOperations"/>
+<fullyQualifiedTypeName name="com.zensar.gourab.sarkar.question3.AgeNotValidException"/>
+<fullyQualifiedTypeName name="com.zensar.gourab.sarkar.question3.EmployeeOperations"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="assignment_13092019.q1.ProductDelete"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="day8_2.Example2.ConnectionUtil"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="day8_2.Example2.bean.Company"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.util.TreeSet"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="day11.Assignments.q1.bean.Book"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="day11.Assignments.q2.bean.Trains"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+</qualifiedTypeNameHistroy>

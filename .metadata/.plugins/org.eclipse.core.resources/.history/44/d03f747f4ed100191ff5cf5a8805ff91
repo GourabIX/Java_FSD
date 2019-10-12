@@ -1,0 +1,16 @@
+package zs_gs_java;
+
+public class Temp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String s = "1";
+		if (s instanceof String)
+			System.out.println("str");
+		else
+			System.out.println("not str");
+
+	}
+
+}

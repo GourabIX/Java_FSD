@@ -1,0 +1,11 @@
+package com.zensar.spring.magicboxes;
+
+public class MagicboxImpl implements Magicbox {
+
+	@Override
+	public void getContents() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

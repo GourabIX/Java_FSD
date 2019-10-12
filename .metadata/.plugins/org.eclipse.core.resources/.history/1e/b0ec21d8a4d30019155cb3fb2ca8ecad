@@ -1,0 +1,63 @@
+package com.zensar.gourab.sarkar.question2;
+
+public class Icecream {
+	
+	public String flavour;
+	public float price;
+	public float discount;
+	
+	public Icecream()
+	{
+		// the default constructor
+	}
+	
+	public Icecream(String flavour, float price)
+	{
+		this.flavour = flavour;
+		this.price = price;
+		if (flavour.equalsIgnoreCase("chocolate"))
+		{
+			this.discount = (float) 10.75;
+		}
+		else
+		{
+			this.discount = (float) 5.25;
+		}
+	}
+
+	public void setFlavour(String flavour)
+	{
+		this.flavour = flavour;
+	}
+	
+	public String getFlavour()
+	{
+		return flavour;
+	}
+	
+	public void setPrice(float price)
+	{
+		this.price = price;
+	}
+	
+	public float getPrice()
+	{
+		return price;
+	}
+	
+	public void setDiscount(float discount)
+	{
+		this.discount = discount;
+	}
+	
+	public float getDiscount()
+	{
+		return discount;
+	}
+	
+	@Override
+	public String toString() {
+		return "Icecream [flavour=" + flavour + ", price=" + price + ", discount=" + discount + "]";
+	}
+
+}

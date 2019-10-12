@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+div
+{
+	display: inline-block;
+	text-align: center;
+}
+
+form 
+{
+    /* Just to center the form on the page */
+    margin: 15% 180%;
+    width: 260px;
+    padding: 15px;
+    border-radius: 1em;
+    box-shadow: 1px 2px 2px 4px grey;
+}
+
+input
+{
+	border-radius: 0.35em;
+	padding: 5px;
+}
+
+#submitter
+{
+	display: inline-block;
+	padding: 10px;
+	border-radius: 1em;
+	box-shadow: 1px 1px 1px 1px silver;
+}
+
+img
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	padding: 5px;
+	height: 60px;
+}

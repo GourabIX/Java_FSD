@@ -1,0 +1,16 @@
+1567704189545	Delete element
+1567705191701	Rename type 'test_mul'
+1567705211618	Rename type 'test'
+1567705256551	Rename type 'Work'
+1567744877419	Rename local variable 'prod'
+1567748391022	Rename local variable 'x'
+1567748699218	Copy compilation unit
+1567749133781	Copy compilation unit
+1567750581568	Copy compilation unit
+1567752552431	Copy compilation unit
+1567758126967	Copy compilation unit
+1567758975361	Copy compilation unit
+1567838615982	Copy compilation unit
+1567840297836	Rename local variable 'obj'
+1567845143173	Move compilation units
+1567848141676	Rename method 'get_str_type'
