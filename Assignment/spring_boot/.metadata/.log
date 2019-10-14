@@ -2923,3 +2923,51 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-12 19:26:15.500
 !MESSAGE executing callback sts4.classpath.oVEfUqdo SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2019-10-12 21:00:23.574
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-12 21:00:26.605
+!MESSAGE Preparing classpath changed notification SpringBootHelloWebService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-12 21:00:26.609
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-12 21:00:26.625
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-12 21:00:26.633
+!MESSAGE buffering callback sts4.classpath.oVEfUqdo SpringBootHelloWebService false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-12 21:00:26.635
+!MESSAGE executing callback sts4.classpath.oVEfUqdo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-12 21:00:26.717
+!MESSAGE executing callback sts4.classpath.oVEfUqdo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-12 21:00:49.181
+!MESSAGE Preparing classpath changed notification SpringBootHelloWebService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-12 21:00:49.183
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-12 21:00:49.186
+!MESSAGE buffering callback sts4.classpath.oVEfUqdo SpringBootHelloWebService true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-12 21:00:49.189
+!MESSAGE executing callback sts4.classpath.oVEfUqdo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-12 21:00:49.223
+!MESSAGE executing callback sts4.classpath.oVEfUqdo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-12 22:01:25.733
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.oVEfUqdo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-12 22:01:25.735
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.oVEfUqdo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-12 22:01:25.738
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-12 22:01:25.740
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.oVEfUqdo => OK

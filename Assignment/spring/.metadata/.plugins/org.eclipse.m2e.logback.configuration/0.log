@@ -1818,3 +1818,14 @@ org.eclipse.core.runtime.CoreException: Launch configuration SpringMain (1) refe
 2019-10-12 09:42:15,264 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-10-12 09:42:15,266 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\spring\LoginWebApp\src\test\resources
 2019-10-12 10:16:06,418 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-10-14 09:38:12,073 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-10-14 09:54:08,683 [Worker-16: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zensar.spring:SimpleBeanZeroXml:0.0.1-SNAPSHOT @ D:\gs_61\ecl_main\Assignment\spring\SimpleBeanZeroXml\pom.xml.
+2019-10-14 09:54:09,660 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-14 09:54:09,660 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\spring\SimpleBeanZeroXml\src\main\resources
+2019-10-14 09:54:09,663 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-14 09:54:09,663 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\spring\SimpleBeanZeroXml\src\test\resources
+2019-10-14 09:54:11,415 [Worker-17: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zensar.spring:SimpleBeanZeroXml:0.0.1-SNAPSHOT @ D:\gs_61\ecl_main\Assignment\spring\SimpleBeanZeroXml\pom.xml.
+2019-10-14 09:54:12,154 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-14 09:54:12,155 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\spring\SimpleBeanZeroXml\src\main\resources
+2019-10-14 09:54:12,157 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-14 09:54:12,158 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gs_61\ecl_main\Assignment\spring\SimpleBeanZeroXml\src\test\resources
