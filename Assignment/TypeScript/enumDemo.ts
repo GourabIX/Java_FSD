@@ -14,3 +14,4 @@ for(let i in ColorNew)
 }
 
 console.log(ColorNew[7]);
+console.log(ColorNew[5]);

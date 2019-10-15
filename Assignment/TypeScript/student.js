@@ -11,3 +11,6 @@ var Student = /** @class */ (function () {
 }());
 var std = new Student(21, "Gourab Sarkar");
 std.display();
+var std2 = new Student(22, "Sudhanya");
+std2.display();
+console.log(std2.rollNo);

@@ -15,7 +15,7 @@ for (let i = 0; i < cityArr.length; i++)
 }
 
 console.log("Using foreach loop: ");
-numArr.forEach(tempVar=>{
+numArr.forEach(tempVar=>{                       // foreach is a function; not a loop. => is called arrow function.
     console.log(tempVar);
 });
 

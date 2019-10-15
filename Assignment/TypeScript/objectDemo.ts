@@ -1,4 +1,4 @@
-let student = {
+let student = {                                         // This is called an object literal
     rollNo: 21,
     name: "Someone",
     percentage: 87.52

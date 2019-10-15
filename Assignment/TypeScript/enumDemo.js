@@ -22,3 +22,4 @@ for (var i in ColorNew) {
     console.log(ColorNew[i]);
 }
 console.log(ColorNew[7]);
+console.log(ColorNew[5]);
