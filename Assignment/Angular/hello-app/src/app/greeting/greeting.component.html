@@ -1,3 +1,12 @@
-<h1>This is a heading.</h1>
+<h1 class="text-color text-bgcolor">Here I have used 2 CSS classes in 1 HTML tag.</h1>
+<h3 [class]="textColor">This is a textColor heading. {{message}}</h3>
+<h2 [ngClass]="['text-color', 'text-bgcolor']">{{message2}}</h2>
+<h2 [ngClass]="['text-color', 'textBgColor']">{{message}}</h2>
+<h2 [ngClass]="[textColor, textBgColor]">{{message2}}</h2>
+<h2 [ngClass]="greetingStyle">{{message}}</h2>
+<h2 [ngStyle]="{'color': 'red', 'background-color': 'yellow'}">{{message}}</h2>
+<h1 [ngStyle]="{ 'color': colorA, 'background-color': colorB }">Happy Diwali</h1>
+<button class="btn btn-primary" (click)="toggleColor($event)"> Pataka Phoro! </button>
 <p>{{message}}</p>
-<app-product-list></app-product-list>
+<p>{{message2}}</p>
+<button (click)="sayGreet($event)">Greet!</button>

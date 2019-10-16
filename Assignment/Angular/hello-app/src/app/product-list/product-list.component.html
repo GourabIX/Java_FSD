@@ -1,11 +1,24 @@
-<table>
-    <tr *ngFor="let p of products" (click)="onSelect(p)">
-        <td>{{p.id}}</td>
-        <td>{{p.name}}</td>
-        <td>{{p.brand}}</td>
-        <td>{{p.price}}</td>
-    </tr>
-</table>
+<div class="container">
+    <table class="table">
+        <thead class="thead-dark"> 
+            <tr>
+                <th>productId</th>
+                <th>name</th>
+                <th>brand</th>
+                <th>price</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr class="table-primary" *ngFor="let p of products" (click)="onSelect(p)">
+                <td [title]="p.name+' details bla bla bla'">{{p.id}}</td>
+                <td [title]="p.name+' details bla bla bla'">{{p.name}}</td>
+                <td [title]="p.name+' details bla bla bla'">{{p.brand}}</td>
+                <td [title]="p.name+' details bla bla bla'">{{p.price}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 <div *ngIf="selectedProduct">
     <p>
@@ -17,4 +30,11 @@
     <p>
         <input [(ngModel)]="selectedProduct.price">
     </p>
+</div>
+
+<div *ngFor="let p of products">
+    <h2><a [title]="p.name+' details bla bla bla'">{{p.name}}</a></h2>
+    <h3>{{p.brand}}</h3>
+    <button class="btn btn-info" (click)="share()">share</button>
+    <app-product-notify [product]="p" (notify)="notifyUser()"></app-product-notify>
 </div>

@@ -2,3 +2,13 @@ p
 {
     background-color: aquamarine;
 }
+
+.text-color
+{
+    color: crimson;
+}
+
+.text-bgcolor
+{
+    background-color: yellowgreen;
+}

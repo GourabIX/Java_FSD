@@ -22,4 +22,14 @@ export class ProductListComponent implements OnInit {
     this.selectedProduct = product;
   }
 
+  share()
+  {
+    window.alert("This product has been shared.")
+  }
+
+  notifyUser()
+  {
+    window.alert("Stephen will be notified.");
+  }
+
 }
