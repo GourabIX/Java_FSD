@@ -11,6 +11,7 @@ export class ProductListComponent implements OnInit {
 
   products: Product[] = new ProductData().getProductList();
   selectedProduct: Product;
+  childData: string;
 
   constructor() { }
 
@@ -27,9 +28,10 @@ export class ProductListComponent implements OnInit {
     window.alert("This product has been shared.")
   }
 
-  notifyUser()
+  notifyUser(event)
   {
-    window.alert("Stephen will be notified.");
+    window.alert(event);
+    this.childData=event;
   }
 
 }

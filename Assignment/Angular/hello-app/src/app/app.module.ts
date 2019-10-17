@@ -9,6 +9,11 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProductNotifyComponent } from './product-notify/product-notify.component';
+import { PipeTestComponent } from './pipe-test/pipe-test.component';
+import { DatepickerTestComponent } from './datepicker-test/datepicker-test.component';
+import { TimepickerTestComponent } from './timepicker-test/timepicker-test.component';
+import { RatingTestComponent } from './rating-test/rating-test.component';
+import { SwitchTestComponent } from './switch-test/switch-test.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { ProductNotifyComponent } from './product-notify/product-notify.componen
     GreetingComponent,
     FooterComponent,
     ProductListComponent,
-    ProductNotifyComponent
+    ProductNotifyComponent,
+    PipeTestComponent,
+    DatepickerTestComponent,
+    TimepickerTestComponent,
+    RatingTestComponent,
+    SwitchTestComponent
   ],
   imports: [
     BrowserModule,

@@ -36,5 +36,9 @@
     <h2><a [title]="p.name+' details bla bla bla'">{{p.name}}</a></h2>
     <h3>{{p.brand}}</h3>
     <button class="btn btn-info" (click)="share()">share</button>
-    <app-product-notify [product]="p" (notify)="notifyUser()"></app-product-notify>
+    <app-product-notify [parentData]="p" (notify)="notifyUser($event)"></app-product-notify>
 </div>
+
+<p>
+    {{childData}}
+</p>

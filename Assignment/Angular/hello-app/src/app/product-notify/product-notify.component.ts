@@ -13,7 +13,7 @@ export class ProductNotifyComponent implements OnInit {
   ngOnInit() {
   }
 
-  @Input()
+  @Input("parentData")
   product: Product
 
   @Output()
@@ -21,7 +21,7 @@ export class ProductNotifyComponent implements OnInit {
 
   sendNotification()
   {
-    this.notify.emit();
+    this.notify.emit("Stephen will be notified if Charan agrees.");
   }
 
 }

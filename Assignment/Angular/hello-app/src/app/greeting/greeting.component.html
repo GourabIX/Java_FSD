@@ -10,3 +10,6 @@
 <p>{{message}}</p>
 <p>{{message2}}</p>
 <button (click)="sayGreet($event)">Greet!</button>
+<h2 [ngClass]="greetingStyle">{{message | uppercase}}</h2>
+<h2 [ngClass]="greetingStyle">{{message | lowercase}}</h2>
+<h2 [ngClass]="greetingStyle">{{message | titlecase}}</h2>
