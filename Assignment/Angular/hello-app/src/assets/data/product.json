@@ -1,0 +1,5 @@
+[
+    {"productId": 5001, "name": "Fridge", "brand": "LG", "price": 34000.00},
+    {"productId": 5002, "name": "TV", "brand": "Samsung", "price": 20000.00},
+    {"productId": 5003, "name": "Radio", "brand": "Casio", "price": 400.00}
+]

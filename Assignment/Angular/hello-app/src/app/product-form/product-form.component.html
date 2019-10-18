@@ -1,0 +1,55 @@
+<p>product-form works!</p>
+<div class="container-fluid">
+    <form #productForm="ngForm" class="was-validated" (ngSubmit)="onSubmit()">
+        <p>{{productForm.form.valid}}</p>
+        <p>{{productForm.value | json}}</p>
+        <div class="form-group">
+            <label>Product ID</label>
+            <input class="form-control" #id="ngModel" name="productId" type="number" [(ngModel)]="product.productId" required pattern="^\d{5}$">
+            <div *ngIf="id.errors && (id.invalid || id.dirty)">
+                <small *ngIf="id.errors.required" class="text-danger">
+                    product ID is required
+                </small>
+                <small *ngIf="id.errors.pattern" class="text-danger">
+                    product ID must be 4 digits
+                </small>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Product Name</label>
+            <input class="form-control" name="productName" #nm="ngModel" type="text" [(ngModel)]="product.name" required>
+            <div class="valid-feedback">valid</div>
+            <div class="invalid-feedback">Please fill out the values</div>
+            <p>{{nm.className}}</p>
+            <p>touched {{nm.touched}}</p>
+            <p>pristine {{nm.pristine}}</p>
+            <p>valid {{nm.valid}}</p>
+            <div *ngIf="nm.errors && nm.invalid"><small *ngIf="nm.errors.required" class="text-danger">
+                name is required</small>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Product Brand</label>
+            <input class="form-control" #br="ngModel" name="productBrand" type="text" [(ngModel)]="product.brand" required>
+            <div *ngIf="br.errors && br.invalid"><small *ngIf="br.errors.required" class="text-danger">
+                brand is required</small>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Product Price</label>
+            <input class="form-control" #pr="ngModel" name="productPrice" type="number" [(ngModel)]="product.price" required pattern="^\d{4}$">
+            <div *ngIf="pr.errors && (pr.invalid || pr.dirty)">
+                <small *ngIf="pr.errors.required" class="text-danger">
+                    product ID is required
+                </small>
+                <small *ngIf="pr.errors.pattern" class="text-danger">
+                    product ID must be 4 digits
+                </small>
+            </div>
+        </div>
+        <button type="submit" [disabled]="productForm.form.invalid" class="btn btn-primary"> submit</button>
+    </form>
+</div>

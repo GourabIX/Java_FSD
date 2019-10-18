@@ -1,9 +1,14 @@
 <h2>{{name | uppercase}}</h2>
 <h2>{{name | lowercase}}</h2>
 <h2>{{name | titlecase}}</h2>
+<h2>{{name | slice:3:8}}</h2>
+<h2>{{name | slice:3}}</h2>
+<h2>{{name | reverseString}}</h2>
+
 <h2>{{6.258 | number:'3.3-5'}}</h2>
 <h2>{{6.258 | number:'3.1-2'}}</h2>
 <h2>{{0.25 | percent}}</h2>
+
 <h2>{{1234000 | currency}}</h2>
 <h2>{{1234000 | currency:'GBP'}}</h2>
 <h2>{{1234000 | currency:'GBP': 'code'}}</h2>

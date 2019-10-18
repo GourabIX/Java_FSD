@@ -9,6 +9,7 @@
 <button class="btn btn-primary" (click)="toggleColor($event)"> Pataka Phoro! </button>
 <p>{{message}}</p>
 <p>{{message2}}</p>
+<h4>{{message | reverseString}}</h4>
 <button (click)="sayGreet($event)">Greet!</button>
 <h2 [ngClass]="greetingStyle">{{message | uppercase}}</h2>
 <h2 [ngClass]="greetingStyle">{{message | lowercase}}</h2>
