@@ -14,6 +14,7 @@ export class ProductListComponent implements OnInit {
   products: Product[];
   selectedProduct: Product;
   childData: string;
+  errorMessage: any;
 
   constructor(private productService: ProductService) { }
 
@@ -21,7 +22,11 @@ export class ProductListComponent implements OnInit {
     this.productService.getProducts().subscribe(responseData=>
       {
         this.products = responseData;
-      });
+      }, error => 
+      {
+        this.errorMessage = error;
+        window.alert(this.errorMessage);
+      })
   }
 
   onSelect(product: Product)
